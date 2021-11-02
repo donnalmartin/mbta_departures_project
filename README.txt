@@ -58,6 +58,12 @@ A: Yes, some stations will take longer to load than others due to the amount of
 associated data available. Some lag is normal while the system waits to hear back
 from the MBTA API, but performance improvements within this application should be
 investigated as well.
+
+Q: The second row of the departures table appears blank. Is this expected?
+
+A: No, you should be seeing the current date and time in this row. This has been
+identified as a browser incompatibility issue. For this reason, we recommend using
+the latest availble version of your browser.
    
 MAINTAINERS
 -----------
